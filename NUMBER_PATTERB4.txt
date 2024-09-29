@@ -1,0 +1,36 @@
+/tmp/zWVsgExYrD.o
+ Star Pattern
+
+   1
+  12
+ 123
+1234
+
+
+=== Code Execution Successful ===
+
+\// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    // Write C++ code here
+    
+    cout<<" Star Pattern"<<endl;
+    cout<<endl;
+    for(int i=1;i<=4;i++)
+    {
+        for(int j=1;j<=(4-i);j++)
+        {
+            cout<<" ";
+        }
+        for(int j=1;j<=i;j++)
+        {
+            cout<<j;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
